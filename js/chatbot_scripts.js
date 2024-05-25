@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const uuid = generateUUID();
 
-            fetch(`https://renderv2-gntp.onrender.com/query/fusion_retriever/?query=${encodeURIComponent(userMessage)}&course_name=Technopreneurship&user=${uuid}`, {
+            fetch(`https://renderv2-gntp.onrender.com/query/fusion_retriever/?query=${encodeURIComponent(userMessage)}&course_name=Wild_Cats_Innovation_Labs&user=${uuid}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
