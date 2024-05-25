@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/chatbot_styles.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -46,6 +47,21 @@
                 </div>
             </div>
         </header>
+        <!--Chatbot-->
+        <div>
+            <div class="chat-sidebar">
+                <header class="chat-header">
+                    <h3>WIL-Bot</h3>
+                    <button id="exitBtn" class="icon-button exit-btn" aria-label="Close chat"></button>
+                </header>
+                <div class="chat-messages" id="chatMessages"></div>
+                <footer class="chat-footer">
+                    <input type="text" id="userInput" placeholder="Type your message..." autofocus>
+                    <button id="sendBtn" class="icon-button send-btn" aria-label="Send message"></button>
+                </footer>
+            </div>
+            <button id="openBtn" class="open-btn"></button>
+        </div>
         <!-- About-->
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
@@ -217,5 +233,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="js/chatbot_scripts.js"></script>
     </body>
 </html>
